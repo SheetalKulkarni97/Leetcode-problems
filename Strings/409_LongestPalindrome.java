@@ -33,7 +33,7 @@ class Solution {
     }
 }
 
-/*Explanation : Palindrome consists of only even number of characters or even number of characters + 1 odd character.
+/*Explanation : Palindrome consists of only even number of characters (abba) or even number of characters + 1 odd character (abbdbba).
 We first create a hashmap to capture frequency of all characters present in the string.
 Then we run loop for each character, if it's frequency is even , 
 then it can be used to make palindrome, so we directly add it to answer.
