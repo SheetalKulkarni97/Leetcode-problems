@@ -15,8 +15,8 @@ class Solution {
         int length = s.length();
         int ans = 0;
         HashMap<Character,Integer> freq = new HashMap<>();
-        for(int i=0;i<length;i++){
-            freq.put(s.charAt(i),freq.getOrDefault(s.charAt(i),0)+1);
+        for(char c : s.toCharArray()){
+            freq.put(c,freq.getOrDefault(c,0)+1);
         }
 
         Boolean isOdd=false;
